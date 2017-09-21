@@ -66,8 +66,8 @@ html
 		.box1 	
 			{
 				background-color:white;
-				width:auto;
 				float: left;
+				max-width: 600px;
 				border-style: solid;
 				border-width: 0px;
 				margin-right: 20px;
@@ -75,20 +75,48 @@ html
 				font-family: 'Lato', sans-serif;
 				padding: 20px;
 				display: inline-block;
+				position: relative;
+
 			}
-		.images 
+		.box1 img
 			{
-				float: left;
 				margin-right: 20px;
-				position:relative;
-				
+				margin-bottom: 20px;
+				width: 200px;
+				height: 100px;
 			}
-		.h2
+		
+		.bluesheader
 			{
 				position: absolute;
-				top: 20px;
-				width: 100%;
+				top:160px;
+				background-color: #4aaaa5;
+				width:200px;
 			}
+		.jazzheader
+			{
+				position: absolute;
+				top:160px;
+				left: 244px;
+				background-color: #4aaaa5;
+				width:200px;
+			}
+		.rockheader
+			{
+				position: absolute;
+				top:283px;
+				background-color: #4aaaa5;
+				width:200px;
+			}
+		.acousticheader
+			{
+				position: absolute;
+				top:283px;
+				background-color: #4aaaa5;
+				left: 244px;
+				width:200px;
+			}
+
 		.box2	
 			{
 				background-color:white;
